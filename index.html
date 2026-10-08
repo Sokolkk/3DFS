@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LAZER Print Lab — 3D-печать на заказ: вентиляция, аспирация, QR-таблички | Балаково</title>
+<meta name="description" content="3D-печать на заказ: шиберные заслонки, коллекторы, дефлекторы, оконные адаптеры, QR-таблички. PETG и PLA, точность ±0,05 мм, изготовление от 1 дня. Работаем с частными заказами и бизнесом, доставка по России.">
+<meta name="theme-color" content="#0e0d0b">
+<meta property="og:type" content="website">
+<meta property="og:title" content="LAZER Print Lab — 3D-печать на заказ">
+<meta property="og:description" content="Изготавливаю детали под ваш размер: вентиляция, аспирация, крепёж, QR-таблички. PETG и PLA, точность ±0,05 мм.">
+<meta property="og:image" content="og-image.png">
+<meta property="og:url" content="https://3d.formaluch.ru/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.remove("no-js");</script>
+  <!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=113571262', 'ym');
+
+    ym(113571262, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/113571262" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</head>
+<body>
+
+<a class="skip" href="#catalog">Перейти к каталогу</a>
+
+<header class="nav" id="top">
+  <div class="wrap nav__in">
+    <a class="nav__brand" href="#top">
+      <span class="nav__brand-name">LAZER Print Lab</span>
+      <span class="nav__brand-sub">3D-печать на заказ</span>
+    </a>
+
+    <nav class="nav__links" aria-label="Основная навигация">
+      <a href="#custom">Фигурки и подарки</a>
+      <a href="#catalog">Технические изделия</a>
+      <a href="#specs">Технические данные</a>
+      <a href="#how">Как заказать</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+
+    <span class="nav__cta">
+      <a class="btn btn--sm btn--ghost" href="https://t.me/sokolkk" target="_blank" rel="noopener">Telegram</a>
+      <a class="btn btn--sm" href="https://vk.com/formaluch" target="_blank" rel="noopener">Написать</a>
+    </span>
+
+    <button class="nav__toggle" type="button" aria-label="Открыть меню" aria-haspopup="dialog" aria-controls="siteMenu">
+      <span class="nav__toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span class="nav__toggle-text">Меню</span>
+    </button>
+  </div>
+</header>
+
+<!-- Меню: нативный dialog в top layer, как на сайте ночников -->
+<dialog class="mmenu" id="siteMenu" aria-label="Меню сайта">
+  <div class="mmenu__top">
+    <span class="mmenu__brand">LAZER Print Lab</span>
+    <button class="mmenu__close" type="button" data-menu-close aria-label="Закрыть меню">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+
+  <div class="mmenu__panel">
+    <div class="mmenu__group">
+      <p class="mmenu__label">Проекты</p>
+      <span class="switch" role="group" aria-label="Проекты FutureSphinx">
+        <a class="switch__item switch__item--light" href="https://formaluch.ru/" target="_blank" rel="noopener">
+          <span class="switch__dot" aria-hidden="true"></span>
+          <span class="switch__name">Ночники</span>
+        </a>
+        <span class="switch__item switch__item--print" aria-current="true">
+          <span class="switch__dot" aria-hidden="true"></span>
+          <span class="switch__name">3D-печать</span>
+        </span>
+        <a class="switch__item switch__item--dev" href="https://futuresphinx.ru/" target="_blank" rel="noopener" title="Разработка сайтов — futuresphinx.ru">
+          <span class="switch__dot" aria-hidden="true"></span>
+          <span class="switch__name">Разработка</span>
+        </a>
+      </span>
+    </div>
+
+    <div class="mmenu__group">
+      <p class="mmenu__label">Разделы</p>
+      <nav class="mmenu__links" id="siteMenuLinks" aria-label="Навигация по разделам">
+        <a href="#custom">Фигурки и подарки</a>
+        <a href="#catalog">Технические изделия</a>
+        <a href="#industries">Отрасли</a>
+        <a href="#specs">Технические данные</a>
+        <a href="#maker">Кто делает</a>
+        <a href="#how">Как заказать</a>
+        <a href="#faq">Вопросы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+
+    <div class="mmenu__cta">
+      <a class="btn" href="https://t.me/sokolkk" target="_blank" rel="noopener">Написать в Telegram</a>
+      <a class="btn btn--ghost" href="https://vk.com/formaluch" target="_blank" rel="noopener">Написать во ВКонтакте</a>
+    </div>
+  </div>
+</dialog>
+
+<!-- Фон сайта: каркас печатаемой детали и частицы. Слой занимает весь экран
+     и стоит под контентом, а не только в шапке, поэтому эффект виден на
+     всей странице. Всё декоративное: aria-hidden и клики сквозь него. -->
+<canvas class="fx-canvas" id="fxCanvas" aria-hidden="true"></canvas>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="fx-glow" id="fxGlow" aria-hidden="true"></div>
+    <div class="fx-scan" aria-hidden="true"></div>
+
+    <div class="wrap hero__in">
+      <div class="hero__text">
+        <p class="eyebrow print-reveal">Балаково · отправка по России</p>
+        <h1 class="hero__title">Детали, которых нет в магазине</h1>
+        <p class="lead lead--hero">Печатаю на заказ элементы вентиляции, аспирации, крепёж и таблички — под ваш размер, а не под «стандарт». PETG и PLA, точность <strong>±0,05&nbsp;мм</strong>, срок от одного дня.</p>
+
+        <div class="hero__actions">
+          <a class="btn" href="#catalog">Смотреть изделия</a>
+          <a class="btn btn--ghost" href="#how">Как заказать</a>
+        </div>
+
+        <dl class="hero__stats">
+          <div><dt>Срок</dt><dd>от <span class="count" data-count-to="1">1</span> дня</dd></div>
+          <div><dt>Точность</dt><dd>±<span class="count" data-count-to="0.05" data-count-decimals="2">0,05</span> мм</dd></div>
+          <div><dt>Диаметры</dt><dd><span class="count" data-count-to="50">50</span>–160 мм</dd></div>
+          <div><dt>Материал</dt><dd>PETG / PLA</dd></div>
+        </dl>
+
+        <p class="hero__hint" data-mesh-hint>
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 6l-5 6 5 6M15 6l5 6-5 6"/></svg>
+          Деталь на фоне можно повернуть — потяните по ней мышью
+        </p>
+
+        <p class="audience">Индивидуальные заказы и <strong>B2B</strong>: изготовлю партию, деталь под чертёж или замену сломанному узлу.</p>
+      </div>
+
+      <figure class="hero__media reveal">
+        <img onerror="this.onerror=null;void 0" src="assets/3d_hero_00001.webp" width="1248" height="832" alt="3D-принтер в мастерской печатает крупную чёрную деталь из PETG" fetchpriority="high">
+      </figure>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>ВЕНТИЛЯЦИЯ · АСПИРАЦИЯ · ШИБЕРЫ · КОЛЛЕКТОРЫ · ДЕФЛЕКТОРЫ · АДАПТЕРЫ · QR-ТАБЛИЧКИ · КОРПУСА · КРЕПЁЖ · PETG / PLA ·</span>
+      <span>ВЕНТИЛЯЦИЯ · АСПИРАЦИЯ · ШИБЕРЫ · КОЛЛЕКТОРЫ · ДЕФЛЕКТОРЫ · АДАПТЕРЫ · QR-ТАБЛИЧКИ · КОРПУСА · КРЕПЁЖ · PETG / PLA ·</span>
+    </div>
+  </div>
+
+  <!-- ДВА СЦЕНАРИЯ -->
+  <section class="section" id="audience">
+    <div class="wrap">
+      <p class="eyebrow print-reveal">Кому подходит</p>
+      <h2 class="h2 print-reveal">Два сценария — один подход к точности</h2>
+
+      <div class="cards2">
+        <article class="card card--audience reveal">
+          <p class="tag tag--b2c">Частным заказом</p>
+          <h3>Нужна одна деталь</h3>
+          <p>Сломался переходник, не подходит гофра, выпадает шланг кондиционера, нужна табличка с QR на кассу. Печатаю штучно под ваш размер — без минимальной партии.</p>
+          <ul class="spec">
+            <li>Изготовлю по фото, эскизу или образцу</li>
+            <li>Подберу цвет: белый, чёрный, серый, хаки</li>
+            <li>Отправлю Авито Доставкой или напрямую</li>
+          </ul>
+        </article>
+
+        <article class="card card--audience reveal">
+          <p class="tag tag--b2b">Бизнесу</p>
+          <h3>Нужна партия или нестандарт</h3>
+          <p>Оснастка для мастерской, корпуса для электроники, замена снятой с производства детали, серийные крепления. Работаю по договору, с закрывающими документами.</p>
+          <ul class="spec">
+            <li>Изготовлю по вашему чертежу (STEP, STL, 3MF, OBJ)</li>
+            <li>Мелкие серии — от одной детали до партии</li>
+            <li>Лазерная маркировка: серийные номера и логотип прямо на пластике</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ФИГУРКИ, ПОДСТАВКИ, БРЕЛКИ -->
+  <section class="section" id="custom">
+    <div class="wrap">
+      <p class="eyebrow print-reveal">Подарки и кастом</p>
+      <h2 class="h2 h2--shine print-reveal">Фигурки, подставки и брелки</h2>
+      <p class="lead lead--wide">Та же мастерская, только задача другая: не деталь под чертёж, а вещь под идею. Напечатаю по вашему рисунку, смоделирую с нуля или повторю то, что вы видели на картинке.</p>
+
+      <div class="cards3">
+
+        <article class="card card--product reveal">
+          <div class="cslider" data-slider>
+            <div class="cslider__track">
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_fig_1.webp" width="1400" height="1050" alt="Три 3D-печатные фигурки: дракон, рыцарь и стилизованный зверёк" loading="lazy">
+              </div>
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_fig_2.webp" width="1400" height="1050" alt="Макросъёмка фигурки: детали доспеха и тонкие слои печати" loading="lazy">
+              </div>
+            </div>
+            <div class="cslider__dots" aria-hidden="true"></div>
+          </div>
+          <div class="card__body">
+            <h3>Фигурки и миниатюры</h3>
+            <p>Персонаж по вашему фото или рисунку, миниатюра для настольной игры, фигурка питомца, статуэтка в подарок. Печатаю с высокой детализацией и могу покрыть грунтом.</p>
+            <ul class="spec spec--tight">
+              <li>Высота от 3 до 30 см</li>
+              <li>Материал: PLA для деталей, PETG для прочных</li>
+              <li>Возможна покраска и тонировка</li>
+            </ul>
+            <p class="note note--tight">Небольшая фигурка до 10 см — от <strong>700 ₽</strong>. Цена зависит от детализации и размера.</p>
+          </div>
+        </article>
+
+        <article class="card card--product reveal">
+          <div class="cslider" data-slider>
+            <div class="cslider__track">
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_stand_1.webp" width="1400" height="1050" alt="Чёрная 3D-печатная подставка для наушников с тёплой подсветкой" loading="lazy">
+              </div>
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_stand_2.webp" width="1400" height="1050" alt="Две подставки для наушников: чёрная и белая с пазом под телефон" loading="lazy">
+              </div>
+            </div>
+            <div class="cslider__dots" aria-hidden="true"></div>
+          </div>
+          <div class="card__body">
+            <h3>Подставки для наушников</h3>
+            <p>Держатель под вашу модель: с полкой под телефон, крючком для кабеля или подсветкой. Форму и цвет подберём под ваш стол и технику.</p>
+            <ul class="spec spec--tight">
+              <li>Для наушников любого размера</li>
+              <li>Основание с грузом — не опрокидывается</li>
+              <li>Вариант с пазом под смартфон</li>
+            </ul>
+            <p class="note note--tight">Простая подставка — от <strong>900 ₽</strong>. С подсветкой — от 1 400 ₽.</p>
+          </div>
+        </article>
+
+        <article class="card card--product reveal">
+          <div class="cslider" data-slider>
+            <div class="cslider__track">
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_keychain_1.webp" width="1400" height="1050" alt="Кастомные 3D-печатные брелки: портрет питомца, монограмма и герб" loading="lazy">
+              </div>
+            </div>
+          </div>
+          <div class="card__body">
+            <h3>Кастомные брелки</h3>
+            <p>Портрет питомца, инициалы, логотип, силуэт машины, герб клуба — плоский рельеф или объёмная фигурка. Хороший небольшой подарок и приятная мелочь к основному заказу.</p>
+            <ul class="spec spec--tight">
+              <li>Размер 3–8 см, толщина 2–4 мм</li>
+              <li>Чёрный, белый, цветной или прозрачный пластик</li>
+              <li>Фурнитура под ключи или подвеску</li>
+            </ul>
+            <p class="note note--tight">От <strong>300 ₽</strong> за штуку. От 5 штук — скидка.</p>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Разработка дизайнов -->
+      <article class="design">
+        <figure class="design__media reveal">
+          <img onerror="this.onerror=null;void 0" src="assets/3d_design_1.webp" width="1400" height="1050" alt="Рабочее место: 3D-модель детали на экране и напечатанный прототип рядом" loading="lazy">
+        </figure>
+        <div class="design__body">
+          <p class="eyebrow print-reveal">Разработка дизайнов</p>
+          <h3 class="h3">Смоделирую то, что нужно вам</h3>
+          <p>Если модели нет — это не проблема. Я работаю в CAD и художественном моделировании, поэтому могу собрать и инженерную деталь, и декоративную фигурку. Достаточно идеи, эскиза от руки или фотографии.</p>
+
+          <div class="design__cols">
+            <div class="design__col">
+              <h4>Фигурки и декор</h4>
+              <ul class="spec spec--tight">
+                <li>Персонаж по фото, рисунку или описанию</li>
+                <li>Скульпт с нуля или доработка готовой модели</li>
+                <li>Подготовка к печати и проверка на прочность</li>
+              </ul>
+            </div>
+            <div class="design__col">
+              <h4>Производственные детали</h4>
+              <ul class="spec spec--tight">
+                <li>Модель по образцу или сломанной детали</li>
+                <li>Параметрическая геометрия под ваши размеры</li>
+                <li>Посадки, допуски, рёбра жёсткости</li>
+                <li>Файлы STEP и STL остаются вам</li>
+              </ul>
+            </div>
+          </div>
+
+          <p class="design__note">Покажу 3D-модель до печати — правки на этом этапе бесплатны. Если напечатанная деталь не подошла по моей вине, переделаю за свой счёт.</p>
+
+          <div class="design__actions">
+            <a class="btn" href="https://t.me/sokolkk" target="_blank" rel="noopener">Обсудить идею</a>
+            <a class="btn btn--ghost" href="https://vk.com/formaluch" target="_blank" rel="noopener">Показать примеры</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- КАТАЛОГ -->
+  <section class="section section--feature" id="catalog">
+    <div class="wrap">
+      <p class="eyebrow print-reveal">Технические изделия</p>
+      <h2 class="h2 print-reveal">Вентиляция, аспирация, крепёж</h2>
+      <p class="lead lead--wide">Цены — за базовый размер в чёрном PETG. Другой диаметр, цвет или своя геометрия — считаю индивидуально, обычно это ±15% к цене.</p>
+
+      <div class="cards3">
+
+        <article class="card card--product reveal">
+          <div class="cslider" data-slider>
+            <div class="cslider__track">
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_qr_1.webp" width="1400" height="1050" alt="Размерная сетка QR-табличек: бирка, визитка, квадратная и большая панель" loading="lazy">
+              </div>
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_qr_2.webp" width="1400" height="1050" alt="QR-таблички в работе: стойка регистрации, столик, бутик, коворкинг" loading="lazy">
+              </div>
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_qr_3.webp" width="1400" height="1050" alt="Крупный план объёмного 3D-рельефа QR-кода в чёрном и белом пластике" loading="lazy">
+              </div>
+            </div>
+            <div class="cslider__dots" aria-hidden="true"></div>
+          </div>
+          <div class="card__body">
+            <h3>QR-таблички и бирки</h3>
+            <p>Объёмный рельефный QR: не наклейка и не краска — вплавлен в пластик, не сотрётся. Для оплаты, отзывов, меню, Wi-Fi.</p>
+            <ul class="spec spec--tight">
+              <li>Маленькая бирка 50×30×2 мм</li>
+              <li>Standard Card 85,6×54×3 мм — <strong>500 ₽</strong></li>
+              <li>Квадратная 100×100×3 мм — <strong>700 ₽</strong></li>
+              <li>A6 формат 105×148×3 мм — <strong>800 ₽</strong></li>
+              <li>Большая панель 150×200×3 мм — <strong>1 000 ₽</strong></li>
+            </ul>
+            <p class="note note--tight">Подставка под настольную табличку, настенный крепёж и чёрно-белая версия — по запросу. Адаптация логотипа и QR бесплатно.</p>
+          </div>
+        </article>
+
+        <article class="card card--product reveal">
+          <div class="cslider" data-slider>
+            <div class="cslider__track">
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_blast_1.webp" width="1400" height="1050" alt="Шиберная заслонка: корпус, патрубок и подвижная заслонка" loading="lazy">
+              </div>
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_blast_2.webp" width="1400" height="1050" alt="Шиберная заслонка с полным перекрытием потока, вид сверху" loading="lazy">
+              </div>
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_blast_3.webp" width="1400" height="1050" alt="Шибер в разборе: корпус и заслонка отдельно" loading="lazy">
+              </div>
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_blast_4.webp" width="1400" height="1050" alt="Инженерная схема проходного шибера: фасад, профиль и ход заслонки" loading="lazy">
+              </div>
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_blast_5.webp" width="1400" height="1050" alt="Собранная DIY-вентиляция с шибером: режимы закрыто и открыто" loading="lazy">
+              </div>
+            </div>
+            <div class="cslider__dots" aria-hidden="true"></div>
+          </div>
+          <div class="card__body">
+            <h3>Шиберные заслонки</h3>
+            <p>Перекрывают поток на 100%: направляйте мощность вытяжки на тот станок, который работает сейчас. Плотный ход без подсоса и свиста.</p>
+            <ul class="spec spec--tight">
+              <li>Диаметры Ø50–160 мм под заказ</li>
+              <li>Патрубки с двух сторон под гофру и хомуты</li>
+              <li>Монтажный зазор всего 12 мм</li>
+              <li>Не забивается стружкой и нагаром</li>
+            </ul>
+            <p class="note note--tight">Ø100 мм — <strong>1 200 ₽</strong>. Опт от 3 штук — скидка.</p>
+          </div>
+        </article>
+
+        <article class="card card--product reveal">
+          <div class="cslider" data-slider>
+            <div class="cslider__track">
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_manifold_1.webp" width="1400" height="1050" alt="Коллектор-разветвитель на три канала с заглушками в комплекте" loading="lazy">
+              </div>
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_manifold_2.webp" width="1400" height="1050" alt="Напечатанный коллектор на три выхода, вид изнутри" loading="lazy">
+              </div>
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_manifold_00001.webp" width="1184" height="896" alt="Коллектор-разветвитель крупным планом на тёмной поверхности" loading="lazy">
+              </div>
+            </div>
+            <div class="cslider__dots" aria-hidden="true"></div>
+          </div>
+          <div class="card__body">
+            <h3>Коллекторы-разветвители</h3>
+            <p>Разделяют или объединяют поток: одна магистраль на несколько рабочих зон. Плавные радиусы без углов — без завихрений и лишнего шума.</p>
+            <ul class="spec spec--tight">
+              <li>Например: вход Ø150 мм → три выхода Ø100 мм</li>
+              <li>В комплекте две герметичные заглушки</li>
+              <li>Система «на вырост»: подключайте каналы по мере надобности</li>
+            </ul>
+            <p class="note note--tight">Три канала Ø100 с заглушками — <strong>2 400 ₽</strong>.</p>
+          </div>
+        </article>
+
+        <article class="card card--product reveal">
+          <div class="cslider" data-slider>
+            <div class="cslider__track">
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_deflector_1.webp" width="1400" height="1050" alt="Уличный дефлектор-козырёк с защитными жалюзи" loading="lazy">
+              </div>
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_deflector_2.webp" width="1400" height="1050" alt="Крепёж дефлектора: четыре монтажных винта и жалюзи" loading="lazy">
+              </div>
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_deflector_3.webp" width="1400" height="1050" alt="Патрубок дефлектора и широкий фланец с пазом под герметик" loading="lazy">
+              </div>
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_deflector_4.webp" width="1400" height="1050" alt="Инженерная схема вытяжного козырька под сэндвич" loading="lazy">
+              </div>
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_deflector_00001.webp" width="1184" height="896" alt="Белый дефлектор, установленный на стене" loading="lazy">
+              </div>
+            </div>
+            <div class="cslider__dots" aria-hidden="true"></div>
+          </div>
+          <div class="card__body">
+            <h3>Уличные дефлекторы-козырьки</h3>
+            <p>Всепогодная защита выхода вытяжки: косой дождь, снег, наледь, боковой ветер. Жалюзи закрывают путь птицам и грызунам.</p>
+            <ul class="spec spec--tight">
+              <li>Диаметры 75 / 100 / 150 мм, иные под заказ</li>
+              <li>Без мелкой сетки — не забивается нагаром и смолами</li>
+              <li>Фланец 140×140 мм с четырьмя отверстиями и пазом под герметик</li>
+            </ul>
+            <p class="note note--tight">Ø100 мм — <strong>1 400 ₽</strong>. Модуль обратного клапана — отдельно.</p>
+          </div>
+        </article>
+
+        <article class="card card--product reveal">
+          <div class="cslider" data-slider>
+            <div class="cslider__track">
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_window_1.webp" width="1400" height="1050" alt="Оконные адаптеры: чёрный, белый и хаки, доступные размеры выхода" loading="lazy">
+              </div>
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_window_2.webp" width="1400" height="1050" alt="Оконный адаптер установлен в откидное окно, гофра в патрубке" loading="lazy">
+              </div>
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_window_3.webp" width="1400" height="1050" alt="Прямой и изогнутый под 45 градусов адаптеры рядом" loading="lazy">
+              </div>
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_window_4.webp" width="1400" height="1050" alt="Три цвета оконных адаптеров в ряд" loading="lazy">
+              </div>
+            </div>
+            <div class="cslider__dots" aria-hidden="true"></div>
+          </div>
+          <div class="card__body">
+            <h3>Оконные адаптеры для кондиционера</h3>
+            <p>Шланг мобильного кондиционера перестаёт выпадать из окна, а горячий воздух с улицы не возвращается обратно. Монтаж за минуту, без сверления рамы.</p>
+            <ul class="spec spec--tight">
+              <li>Для откидных пластиковых окон</li>
+              <li>Диаметры 75 / 100 / 125 / 150 мм</li>
+              <li>Прямые и изогнутые под 45°</li>
+            </ul>
+            <p class="note note--tight">Ø100 мм — <strong>900 ₽</strong>. Цвет: белый, чёрный, хаки.</p>
+          </div>
+        </article>
+
+        <article class="card card--product reveal">
+          <div class="cslider" data-slider>
+            <div class="cslider__track">
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_ammo_1.webp" width="1050" height="1400" alt="Снаряжение патронов: коробка с оливковой крышкой «Стрелок» на столе" loading="lazy">
+              </div>
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_ammo_2.webp" width="1050" height="1400" alt="Шесть коробок для патронов с кастомными крышками: Стрелок, Змей, Снайпер, герб и Z" loading="lazy">
+              </div>
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_ammo_3.webp" width="1050" height="1400" alt="Варианты кастомных крышек коробок крупным планом" loading="lazy">
+              </div>
+              <div class="cslider__slide">
+                <img onerror="this.onerror=null;void 0" src="assets/3d_ammo_4.webp" width="1050" height="1400" alt="Две открытые коробки: чёрная с патронами и прозрачная оливковая" loading="lazy">
+              </div>
+            </div>
+            <div class="cslider__dots" aria-hidden="true"></div>
+          </div>
+          <div class="card__body">
+            <h3>Коробки для патронов</h3>
+            <p>Ровно 50 патронов, каждый в своей ячейке — никакой россыпи в рюкзаке. Прочнее картона и магазинного пластика, не боится масла и перепадов температур.</p>
+            <ul class="spec spec--tight">
+              <li>Калибр 9×19 мм, 50 ячеек</li>
+              <li>Плотная крышка от влаги и грязи</li>
+              <li>Кастомная крышка: позывной, логотип клуба, герб, инициалы</li>
+            </ul>
+            <p class="note note--tight">Базовая — <strong>1 100 ₽</strong>. Кастомная крышка — +300 ₽.</p>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="note catalog__note">Не нашли нужное? Скорее всего, это тоже можно напечатать — <a href="https://vk.com/formaluch" target="_blank" rel="noopener">напишите и пришлите фото или чертёж</a>.</p>
+    </div>
+  </section>
+
+  <!-- ОТРАСЛИ -->
+  <section class="section" id="industries">
+    <div class="wrap">
+      <p class="eyebrow print-reveal">Где применяется</p>
+      <h2 class="h2 print-reveal">Отрасли и задачи</h2>
+
+      <div class="industries">
+        <div class="industry reveal">
+          <h3>Мастерские и столярка</h3>
+          <p>Стружкоудаление, подключение распиловочных, фуговальных и шлифовальных станков, аспирация.</p>
+        </div>
+        <div class="industry reveal">
+          <h3>Лазерная резка и ЧПУ</h3>
+          <p>Вытяжка CO₂ и УФ-станков, разделение потока между столом и соплом, защита выхода на улице.</p>
+        </div>
+        <div class="industry reveal">
+          <h3>Покраска и химия</h3>
+          <p>Вентиляция покрасочных зон, стойкость к растворителям, смолам и агрессивным газам.</p>
+        </div>
+        <div class="industry reveal">
+          <h3>IT и майнинг</h3>
+          <p>Корпуса, воздуховоды и разветвители для охлаждения стоек, ферм и шумобоксов.</p>
+        </div>
+        <div class="industry reveal">
+          <h3>Гроубоксы и оранжереи</h3>
+          <p>Равномерное распределение притока и вытяжки от канального вентилятора на несколько зон.</p>
+        </div>
+        <div class="industry reveal">
+          <h3>Кафе, магазины, услуги</h3>
+          <p>QR-таблички для оплаты и отзывов, меню, Wi-Fi, тейбл-тенты, бирки и ценники.</p>
+        </div>
+        <div class="industry reveal">
+          <h3>Охота и стрелковые клубы</h3>
+          <p>Коробки для патронов, органайзеры, именные подарки с рельефным рисунком.</p>
+        </div>
+        <div class="industry reveal">
+          <h3>Быт и ремонт</h3>
+          <p>Оконные адаптеры для кондиционеров, переходники, крепёж, запчасти к снятой с производства технике.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ТЕХНИЧЕСКИЕ ДАННЫЕ -->
+  <section class="section section--alt" id="specs">
+    <div class="wrap">
+      <p class="eyebrow print-reveal">Технические данные</p>
+      <h2 class="h2 h2--shine print-reveal">Что нужно знать о печати</h2>
+
+      <div class="specs">
+        <div class="spec-card reveal">
+          <h3>Параметры печати</h3>
+          <dl class="facts facts--stack">
+            <div><dt>Технология</dt><dd>FDM, высокая плотность заполнения</dd></div>
+            <div><dt>Точность</dt><dd>±0,05 мм по сопрягаемым размерам</dd></div>
+            <div><dt>Диаметры</dt><dd>от 50 до 160 мм, иные — по согласованию</dd></div>
+            <div><dt>Срок</dt><dd>от 1 дня, партия — по договорённости</dd></div>
+          </dl>
+        </div>
+
+        <div class="spec-card reveal">
+          <h3>Материалы</h3>
+          <dl class="facts facts--stack">
+            <div><dt>PETG</dt><dd>Основной материал: не боится воды и УФ, работает от −40&nbsp;°C до +75&nbsp;°C</dd></div>
+            <div><dt>PLA</dt><dd>Для декоративных изделий и макетов: чёткая детализация, но не переносит жару выше 60&nbsp;°C</dd></div>
+            <div><dt>Цвета</dt><dd>Чёрный, белый, серый, хаки</dd></div>
+            <div><dt>Стойкость</dt><dd>Масла, растворители, смолы, бытовая химия</dd></div>
+          </dl>
+        </div>
+
+        <div class="spec-card reveal">
+          <h3>Что прислать для заказа</h3>
+          <dl class="facts facts--stack">
+            <div><dt>Чертёж</dt><dd>STEP, STL, 3MF или OBJ — идеальный вариант</dd></div>
+            <div><dt>Эскиз</dt><dd>Размеры от руки или в сообщении — сделаю модель сам</dd></div>
+            <div><dt>Фото образца</dt><dd>С линейкой в кадре — восстановлю геометрию</dd></div>
+            <div><dt>Сломанная деталь</dt><dd>Пришлите её — обмерю и напечатаю замену</dd></div>
+          </dl>
+        </div>
+      </div>
+
+      <article class="duo duo--wide">
+        <figure class="duo__media reveal">
+          <img onerror="this.onerror=null;void 0" src="assets/3d_parts_batch_00001.webp" width="1248" height="832" alt="Партия 3D-печатных деталей из чёрного PETG на металлической поверхности" loading="lazy">
+        </figure>
+        <div class="duo__body">
+          <h3>Серийные партии и B2B</h3>
+          <p>Если деталь нужна не одна, а десятками — это тоже ко мне. Настроенная печать даёт повторяемость от изделия к изделию, а маркировка лазером добавляет серийные номера и логотип прямо на пластик.</p>
+          <ul class="spec">
+            <li>Единая геометрия во всей партии</li>
+            <li>Возможна чёрно-белая двухцветная комбинация</li>
+            <li>Работа по договору, с закрывающими документами</li>
+            <li>Лазерная маркировка деталей: номера, партии, логотип</li>
+          </ul>
+          <a class="btn btn--ghost" href="https://vk.com/formaluch" target="_blank" rel="noopener">Обсудить партию</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- КТО ДЕЛАЕТ -->
+  <section class="section" id="maker">
+    <div class="wrap">
+      <p class="eyebrow print-reveal">Кто делает</p>
+      <h2 class="h2 print-reveal">Меня зовут Михаил</h2>
+
+      <article class="maker">
+        <figure class="maker__photo reveal">
+          <img onerror="this.onerror=null;void 0" src="assets/maker_00001.webp" width="900" height="900" alt="Михаил — мастер 3D-печати LAZER Print Lab" loading="lazy">
+        </figure>
+        <div class="maker__body">
+          <p class="lead">Я программист и мастер: печатаю на заказ в Балаково. Разбираюсь и в декоративных фигурках, и в инженерных деталях — от эскиза до отправки.</p>
+          <p>По работе я занимаюсь разработкой и автоматизацией, поэтому к печати подхожу инженерно: считаю допуски, проверяю прочность и подбираю материал под нагрузку, а не «какой есть». Если деталь должна встать в узел — она встанет.</p>
+          <dl class="facts facts--stack">
+            <div><dt>Опыт</dt><dd>3D-печать и лазерная гравировка — несколько лет, как хобби, которое стало делом</dd></div>
+            <div><dt>Оборудование</dt><dd>Профессиональные 3D-принтеры Bambu Lab X2D, УФ-лазер для маркировки</dd></div>
+            <div><dt>Материалы</dt><dd>PETG и PLA: первый для прочных деталей и улицы, второй для точных и декоративных</dd></div>
+            <div><dt>Что делаю сам</dt><dd>Готовлю модель, печатаю, обрабатываю, упаковываю и отправляю</dd></div>
+            <div><dt>Документы</dt><dd>Работаю по договору, для организаций — счёт и закрывающие документы</dd></div>
+          </dl>
+          <div class="maker__actions">
+            <a class="btn" href="https://t.me/sokolkk" target="_blank" rel="noopener">Написать в Telegram</a>
+            <a class="btn btn--ghost" href="https://vk.com/formaluch" target="_blank" rel="noopener">ВКонтакте</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- КАК ЗАКАЗАТЬ -->
+  <section class="section" id="how">
+    <div class="wrap">
+      <p class="eyebrow print-reveal">Как заказать</p>
+      <h2 class="h2 print-reveal">Три шага до готовой детали</h2>
+
+      <ol class="steps">
+        <li class="step reveal">
+          <span class="step__num">1</span>
+          <h3>Опишите задачу</h3>
+          <p>Пришлите чертёж, эскиз, фото или саму сломанную деталь. Скажите, где она работает: температура, нагрузки, улица или помещение.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__num">2</span>
+          <h3>Согласуем и посчитаем</h3>
+          <p>Предложу материал и геометрию, назову цену и срок. Покажу 3D-модель до печати — правки на этом этапе бесплатны.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__num">3</span>
+          <h3>Печатаю и отправляю</h3>
+          <p>Изготовлю, проверю посадку и упакую. Отправка Авито Доставкой, СДЭК или Почтой России, либо самовывоз в Балаково.</p>
+        </li>
+      </ol>
+
+      <div class="panel panel--callout reveal">
+        <div class="panel__text">
+          <h3>Индивидуальный размер — это не дороже, а точнее</h3>
+          <p>Заводские штамповки делают строго под один диаметр. Если у вас нестандартный шланг, разные диаметры на входе и выходе или нужен свой крепёж — стандартная деталь просто не встанет, и деньги будут потрачены зря. Я печатаю под ваши фактические размеры: деталь встаёт без переходников и потери мощности.</p>
+        </div>
+        <a class="btn" href="https://t.me/sokolkk" target="_blank" rel="noopener">Написать в Telegram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt" id="faq">
+    <div class="wrap">
+      <p class="eyebrow print-reveal">Вопросы</p>
+      <h2 class="h2 h2--shine print-reveal">Частые вопросы</h2>
+
+      <div class="faq">
+        <details class="reveal">
+          <summary>Сколько стоит одна деталь?</summary>
+          <p>Базовые изделия — от 500 ₽ (QR-бирка) до 2 400 ₽ (коллектор на три канала), цены указаны в каталоге. Нестандартная деталь считается по объёму пластика и времени печати — пришлите размеры, и я назову цену в тот же день.</p>
+        </details>
+        <details class="reveal">
+          <summary>Как быстро изготовите?</summary>
+          <p>Простые детали — от одного дня. Партия или сложная геометрия — по договорённости, обычно 2–5 дней. Если заказ нужен к конкретной дате, скажите сразу: подскажу, успеваю или нет.</p>
+        </details>
+        <details class="reveal">
+          <summary>Чем PETG лучше обычного PLA?</summary>
+          <p>PLA даёт самую чёткую детализацию и хорош для декоративных изделий и макетов, но боится жары выше 60&nbsp;°C. PETG прочнее, не боится воды и ультрафиолета, держит от −40 до +75&nbsp;°C. Для вентиляции, аспирации и всего, что работает на улице, беру PETG; для табличек и интерьерных деталей подойдёт и PLA.</p>
+        </details>
+        <details class="reveal">
+          <summary>Можно изготовить по моему чертежу?</summary>
+          <p>Да, это основной способ работы. Принимаю STEP, STL, 3MF и OBJ. Если чертежа нет — хватит фото с линейкой в кадре или размеров, записанных от руки.</p>
+        </details>
+        <details class="reveal">
+          <summary>Работаете с организациями?</summary>
+          <p>Да. Работаю по договору, с закрывающими документами, возможна оплата по счёту. Для партий от трёх штук действуют скидки.</p>
+        </details>
+        <details class="reveal">
+          <summary>Как происходит оплата и доставка?</summary>
+          <p>Оплата после согласования модели и цены. Отправка Авито Доставкой (Почта России, СДЭК, Яндекс Доставка, Boxberry, 5Post), напрямую СДЭК или Почтой России, либо самовывоз в Балаково. При индивидуальном размере возможна предоплата 25%.</p>
+        </details>
+        <details class="reveal">
+          <summary>А если деталь не подойдёт?</summary>
+          <p>Покажу 3D-модель и размеры до печати — правки на этом этапе бесплатны. Если промахнусь по геометрии я, переделаю за свой счёт.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- КОНТАКТЫ -->
+  <section class="section" id="contacts">
+    <div class="wrap">
+      <div class="panel panel--contact reveal">
+        <div class="panel__text">
+          <p class="eyebrow print-reveal">Связаться</p>
+          <h2 class="h3">Пришлите размеры — назову цену и срок</h2>
+          <p>Ответьте на пару вопросов: что за деталь, где работает и какие размеры. Этого достаточно, чтобы посчитать. Чертежа может не быть — разберусь по фото.</p>
+          <div class="panel__actions">
+            <a class="btn" href="https://t.me/sokolkk" target="_blank" rel="noopener">Написать в Telegram</a>
+            <a class="btn btn--ghost" href="https://vk.com/formaluch" target="_blank" rel="noopener">Написать во ВКонтакте</a>
+          </div>
+        </div>
+        <figure class="panel__media reveal">
+          <img onerror="this.onerror=null;void 0" src="assets/3d_workshop_00001.webp" width="1248" height="832" alt="Мастерская: 3D-принтеры, катушки филамента и готовые детали" loading="lazy">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__in">
+    <div class="footer__about">
+      <p class="footer__brand">LAZER Print Lab</p>
+      <p>Сервисная и кастомная 3D-печать: вентиляция, аспирация, крепёж, таблички и корпуса. Работаю сам, отвечаю за каждую деталь.</p>
+      <div class="footer__actions">
+        <a class="btn" href="https://vk.com/formaluch" target="_blank" rel="noopener">Написать во ВКонтакте</a>
+        <a class="btn btn--ghost" href="https://t.me/sokolkk" target="_blank" rel="noopener">Telegram</a>
+      </div>
+    </div>
+
+    <div class="footer__contacts">
+      <h2 class="h4">Контакты</h2>
+      <p><a href="https://vk.com/formaluch" target="_blank" rel="noopener">ВКонтакте: vk.com/formaluch</a></p>
+      <p><a href="https://t.me/sokolkk" target="_blank" rel="noopener">Telegram: @sokolkk</a></p>
+      <p>Балаково · отправка по всей России</p>
+      <p>Сайт: 3d.formaluch.ru</p>
+    </div>
+  </div>
+
+  <!-- Проекты семейства -->
+  <div class="wrap">
+    <div class="projects">
+      <p class="projects__title">Проекты</p>
+      <div class="projects__row">
+        <a class="switch__item switch__item--light" href="https://formaluch.ru/" target="_blank" rel="noopener">
+          <span class="switch__dot" aria-hidden="true"></span>
+          <span class="switch__name">Ночники</span>
+          <span class="projects__host">formaluch.ru</span>
+        </a>
+        <span class="switch__item switch__item--print" aria-current="true">
+          <span class="switch__dot" aria-hidden="true"></span>
+          <span class="switch__name">3D-печать</span>
+          <span class="projects__host">3d.formaluch.ru</span>
+        </span>
+        <a class="switch__item switch__item--dev" href="https://futuresphinx.ru/" target="_blank" rel="noopener" title="Разработка сайтов — futuresphinx.ru">
+          <span class="switch__dot" aria-hidden="true"></span>
+          <span class="switch__name">Разработка</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap footer__legal">
+    <p>© <span id="year">2026</span> LAZER Print Lab. Изображения изделий — примеры. Изготовление на заказ по вашим размерам.</p>
+  </div>
+</footer>
+
+<!-- Кнопка «наверх» -->
+<button class="to-top" id="toTop" type="button" aria-label="Вернуться наверх">
+  <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+
+<script src="effects.js" defer></script>
+<script src="interactions.js" defer></script>
+<script src="script.js" defer></script>
+</body>
+</html>
